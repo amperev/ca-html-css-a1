@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Ubuntu&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.border {
+    border: 2px solid red;
+}
+
+.navbar {
+    background-color: #fbdc00;
+    font-size: 14px;
+    padding: 0.6rem 6.5rem;
+}
+
+.navbar-items {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    margin: auto;
+}
+
+.logo {
+    display: flex;
+}
+
+.navbar-items__link {
+    display: flex;
+    padding: 0.5rem;
+}
+
+.navbar-items__links>ul>li {
+    display: inline-block;
+    padding: 0.5rem;
+}
+
+.login-signup {
+    display: flex;
+    align-items: center;
+}
+
+.login-signup>div {
+    padding: 0.8rem;
+}
+
+.signup-btn {
+    background-color: red;
+    border-radius: 8px;
+    font-weight: 600;
+    padding: 0.5rem 0.8rem;
+    border: 1px solid red;
+    color: white;
+}
+
+.about {
+    background-color: #fbdc00;
+    display: flex;
+    flex-direction: row;
+    padding: 0 7rem;
+}
+
+.about-moto {
+    margin-top: 8rem;
+}
+
+.about .about-moto {
+    width: 50%;
+}
+
+.about .main-image {
+    width: 50%;
+}
+
+.about .moto {
+    font-weight: 800;
+    font-size: 40px;
+    margin: 1rem 0;
+}
+
+.about .information {
+    width: 70%;
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    color: #434343;
+    font-weight: 300;
+    margin: 0.5rem 0;
+}
+
+.about .main-image__img {
+    width: 100%;
+}
+
+.about .get-started {
+    background-color: red;
+    padding: 0.6rem 2.5rem;
+    color: white;
+    border: 1px solid #ff0000;
+    border-radius: 8px;
+    font-weight: 700;
+    margin: 1rem 0rem;
+}
+
