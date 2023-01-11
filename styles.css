@@ -613,32 +613,32 @@
     justify-content: center;
 }
 
-.news {
+.blog {
     width: 1200px;
     padding: 16px;
     margin-right: auto;
     margin-left: auto;
 }
 
-.newsContainer {
+.blog-Container {
     display: flex;
     flex-direction: column;
 }
 
-.newsTitle {
+.blog-Title {
     font-size: 28px;
     line-height: 1.2;
     text-align: center;
+    margin-bottom: 2rem;
 }
 
-.styleCardContainer {
+.blog-Card-Container {
     display: flex;
     flex-wrap: wrap;
     margin-right: -10px;
     margin-left: -10px;
 }
-
-.styleCard {
+.blog-Card {
     width: calc(calc(100% / 3) - 20px);
     margin-right: 10px;
     margin-bottom: 40px;
@@ -650,12 +650,12 @@
     box-shadow: 0 3px 6px hsl(0deg 0% 79% / 50%);
 }
 
-.styleCard a {
+.blog-Card a {
     color: #000 !important;
     text-decoration: none;
 }
 
-.styleCardThumbnail {
+.blog-Card-Thumbnail {
     display: block;
     width: 100%;
     height: 200px;
@@ -664,27 +664,27 @@
     object-fit: cover;
 }
 
-.stylenewsCardContent {
+.Blog-Card-Content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 10px 16px;
 }
 
-.styleCardTitle {
+.blog-Card-Title {
     margin-bottom: 5px;
     font-size: 18px !important;
     color: #ee3425;
 }
 
-.styleCardName {
+.blog-Card-Name {
     margin-bottom: 5px;
     font-size: 18px;
     overflow: hidden;
     color: #000 !important;
 }
 
-.styleOverview {
+.blog-Overview {
     max-height: calc(1.4rem * 3);
     overflow: hidden;
     font-family: "PT Sans", sans-serif;
@@ -692,13 +692,13 @@
     margin-bottom: 1em;
 }
 
-.styleReadContainer {
+.blog-Read-Container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.styleReadMore {
+.blog-Read-More {
     display: flex;
     align-items: center;
     font-weight: 700;
@@ -706,20 +706,21 @@
     cursor: pointer;
 }
 
-.styleCardTitle1 {
+.blog-Card-Title1 {
     margin-bottom: 5px;
     font-size: 14px !important;
     color: #9a9a9a;
 }
 
-.styleButtonContainer {
+.blog-Button-Container {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
 
-.viewAllButton {
+
+.blog-view-All-Button {
     color: #fff;
     background-color: #ee3425;
     border: 1px solid #ee3425;
@@ -732,7 +733,7 @@
     border-radius: 4px;
 }
 
-.viewAllButton span {
+.blog-view-All-Button span {
     font-size: 14px;
     font-family: "PT Sans";
     font-weight: 700 !important;
